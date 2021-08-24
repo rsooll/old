@@ -7,3 +7,8 @@
     width: 200px;
     height: 200px;
 }
+
+#wrapper {
+    width: 1000px;
+    margin: auto;
+}
