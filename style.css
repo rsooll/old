@@ -20,6 +20,7 @@
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 .ContactList,
@@ -35,6 +36,9 @@ a {
     justify-content: flex-start;
 }
 
+footer {
+    background: rgba(222, 0, 0, 0.5);
+}
 
 
 footer {
