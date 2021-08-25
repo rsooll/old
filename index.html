@@ -14,7 +14,7 @@
         <header>
             <h1>Hello, I'm Ihar Leichonak</h1>
             <nav>
-                <ul>
+                <ul class="NavigationList">
                     <li><a href="#About">About me</a></li>
                     <li><a href="#Skills">Skills</a></li>
                     <li><a href="#Contact">Contact</a></li>
@@ -40,32 +40,48 @@
 
                 <section>
                     <h3 id="Skills">Skills</h3>
-                    <div>
-                        <h3>HTML</h3>
-                        <p>HTML - Elementary level</p>
-                    </div>
-                    <div>
-                        <h3>CSS</h3>
-                        <p>CSS - Elementary level</p>
-                    </div>
-                    <div>
-                        <h3>JavaScript</h3>
-                        <p>JavaScript - Beginner level</p>
-                    </div>
-                    <div>
-                        <h3>Git</h3>
-                        <p>Git - Elementary level</p>
-                    </div>
-                    <div>
-                        <h3>Figma</h3>
-                        <p>Figma - Beginner level</p>
-                    </div>
-                    <div>
-                        <h3>Photoshop</h3>
-                        <p>Photoshop - Intermediate level</p>
-                    </div>
+                    <ul class="skillsList">
+                        <li>
+                            <div>
+                                <h4>HTML</h4>
+                                <p>HTML - Elementary level</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <h4>CSS</h4>
+                                <p>CSS - Elementary level</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <h4>JavaScript</h4>
+                                <p>JavaScript - Beginner level</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <h4>Git</h4>
+                                <p>Git - Elementary level</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <h4>Figma</h4>
+                                <p>Figma - Beginner level</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <h4>Photoshop</h4>
+                                <p>Photoshop - Intermediate level</p>
+                            </div>
+                        </li>
+                    </ul>
                 </section>
                 <section>
+
+
                     <h3>Code example:</h3>
                     <pre>
                                 <code>
@@ -74,18 +90,21 @@
                                 }
                             </code>
                             </pre>
-
                 </section>
-
             </article>
-
         </main>
-
         <footer>
             <h3 id="Contact">Contact</h3>
-            <address><a href="tel:+375295891170">+375295891170</a></address>
-            <address><a href="mailto:rsooll.social@gmail.com">Write me</a></address>
-            <p>My social networks:</p>
+            <ul class="ContactList">
+                <li>
+                    <address><a href="tel:+375295891170">+375295891170</a></address>
+                </li>
+                <li>
+                    <address><a href="mailto:rsooll.social@gmail.com">Write me</a></address>
+                </li>
+            </ul>
+
+            <h5>My social networks:</h5>
             <a href="https://github.com/rsooll" target="_blank"><img src="github.png" alt="github" class="SocialIcons">
             </a>
             <a href="https://www.instagram.com/rsooll.i/" target="_blank"><img src="instagram.png" alt="instagram"
@@ -93,11 +112,7 @@
             <a href="https://www.facebook.com/rsooll.i" target="_blank"><img src="facebook.png" alt="facebook"
                     class="SocialIcons"> </a>
 
-
-
-
         </footer>
-
 
     </div>
 </body>
