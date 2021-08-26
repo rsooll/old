@@ -16,6 +16,7 @@
     width: 1000px;
     margin: auto;
 
+    height: 100%;
 }
 
 a {
@@ -23,26 +24,36 @@ a {
     color: black;
 }
 
+a:hover {
+    color: blue;
+}
+
 .ContactList,
 .NavigationList {
     list-style-type: none;
 }
 
-.asideMenu {
+header {
     display: flex;
-    background: rgba(111, 0, 0, 0.5);
-    flex-direction: column;
-    justify-content: flex-start;
+    background: rgba(50, 50, 50, 0.5);
+    margin: 0 auto;
 
 }
 
-footer {
-    background: rgba(222, 0, 0, 0.5);
+main {
+    display: flex;
+    margin: 0 auto;
+    padding: auto;
+    border: 2px solid black;
 }
 
 
 footer {
-
     display: flex;
     justify-content: space-around;
+    background: rgba(50, 50, 50, 0.5);
+}
+
+body {
+    display: flex;
 }
