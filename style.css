@@ -1,0 +1,59 @@
+.SocialIcons {
+    width: 50px;
+    height: 50px;
+}
+
+.logoRSSchool {
+    height: 50px;
+}
+
+.Mylogo {
+    width: 200px;
+    height: 200px;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: auto;
+
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+.ContactList,
+.NavigationList {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    background: rgba(50, 50, 50, 0.5);
+    margin: 0 auto;
+
+}
+
+main {
+    display: flex;
+    margin: 0 auto;
+    padding: auto;
+    border: 2px solid black;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(50, 50, 50, 0.5);
+}
+
+body {
+    display: flex;
+}
