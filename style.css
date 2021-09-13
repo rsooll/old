@@ -49,8 +49,18 @@ a:hover {
 .NavigationList {
     list-style-type: none;
 }
- 
 
+details summary {
+    list-style: none;
+}
+
+details summary::before {
+    content: "\2295 ";
+}
+
+details[open] summary::before {
+    content: "\2296 ";
+}
 
 header {
     display: flex;
@@ -87,7 +97,7 @@ footer {
 }
 
 .skillsList li h4::before {
-    content: '\2611    ';
+    content: '\2611   ';
 }
 
 h3:hover {
@@ -113,4 +123,10 @@ h3:hover {
 .projectSpan {
     font-weight: normal;
     font-size: large;
+}
+
+.CodeExample,
+#Skills,
+summary {
+    display: inline;
 }
