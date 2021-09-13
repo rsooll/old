@@ -1,8 +1,20 @@
-html,
-body {
+html {
     width: 100%;
     height: 100%;
     position: relative;
+    scroll-behavior: smooth
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 100vh;
+    margin: auto;
+}
+
+article {
+    scroll-behavior: smooth;
 }
 
 .SocialIcons {
@@ -19,12 +31,7 @@ body {
     height: 200px;
 }
 
-#wrapper {
-    width: 1000px;
-    margin: auto;
 
-    height: 100%;
-}
 
 a {
     text-decoration: none;
@@ -44,7 +51,7 @@ header {
     display: flex;
     background: rgba(50, 50, 50, 0.5);
     margin: 0 auto;
-
+    flex-wrap: wrap;
 }
 
 main {
@@ -52,6 +59,7 @@ main {
     margin: 0 auto;
     padding: auto;
     border: 2px solid black;
+    flex-wrap: wrap;
 }
 
 
@@ -59,8 +67,23 @@ footer {
     display: flex;
     justify-content: space-around;
     background: rgba(50, 50, 50, 0.5);
+    flex-wrap: wrap;
 }
 
-body {
+.SocialFooter,
+.ContactFooter {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.skillsList li {
+    list-style-type: none;
+}
+
+.skillsList li h4::before {
+    content: '+ ';
+}
+
+h3:hover {
+    font-size: 140%;
 }
