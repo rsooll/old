@@ -73,9 +73,11 @@ main {
     display: flex;
     margin: 0 auto;
     padding: auto;
+    padding-bottom: 1%;
     border: 2px solid black;
     flex-wrap: wrap;
     background-color: rgba(150, 150, 150, 0.3);
+
 }
 
 
@@ -86,14 +88,26 @@ footer {
     flex-wrap: wrap;
 }
 
+
+
 .SocialFooter,
 .ContactFooter {
     display: flex;
     flex-wrap: wrap;
 }
 
-.skillsList li {
+.skillsList li,
+.strengths li {
     list-style-type: none;
+}
+
+.strengths li::before {
+    content: '\2713 ';
+
+}
+
+details .skillsList p {
+    color: rgba(100, 100, 100, 0.5);
 }
 
 .skillsList li h4::before {
@@ -105,10 +119,17 @@ h3:hover {
 }
 
 .Project {
-    width: 10vw;
+    width: 250px;
 }
 
+.SectionAbout {
+    display: flex;
+    flex-direction: column;
+}
 
+.CodeSection pre {
+    display: flex;
+}
 
 .ContactTel::before {
     content: "\2706";
@@ -129,4 +150,8 @@ h3:hover {
 #Skills,
 summary {
     display: inline;
+}
+
+code {
+    background-color: rgba(50, 50, 50, 0.5);
 }
