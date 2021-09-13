@@ -85,5 +85,13 @@ footer {
 }
 
 h3:hover {
-    font-size: 140%;
+    font-size: 120%;
+}
+
+.Project {
+    width: 20vw;
+}
+
+article {
+    margin-left: 2em;
 }
