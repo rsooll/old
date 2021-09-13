@@ -81,7 +81,7 @@ footer {
 }
 
 .skillsList li h4::before {
-    content: '+ ';
+    content: '\2611    ';
 }
 
 h3:hover {
@@ -94,4 +94,14 @@ h3:hover {
 
 article {
     margin-left: 2em;
+}
+
+.ContactTel::before {
+    content: "\2706";
+    margin-right: 5px;
+}
+
+.ContactMail::before {
+    content: "\0040";
+    margin-right: 5px;
 }
