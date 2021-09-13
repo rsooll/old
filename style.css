@@ -14,24 +14,27 @@ body {
 }
 
 article {
+    margin-left: 2em;
     scroll-behavior: smooth;
 }
 
-.SocialIcons {
-    width: 50px;
-    height: 50px;
-}
-
+.SocialIcons,
 .logoRSSchool {
     height: 50px;
 }
 
-.Mylogo {
+a.Mylogo {
+    background: url(logo.png) no-repeat;
+    display: block;
     width: 200px;
     height: 200px;
+    transition: 0.5s;
 }
 
+a.Mylogo:hover {
+    background: url(logo2.png) no-repeat;
 
+}
 
 a {
     text-decoration: none;
@@ -46,6 +49,8 @@ a:hover {
 .NavigationList {
     list-style-type: none;
 }
+ 
+
 
 header {
     display: flex;
@@ -60,6 +65,7 @@ main {
     padding: auto;
     border: 2px solid black;
     flex-wrap: wrap;
+    background-color: rgba(150, 150, 150, 0.3);
 }
 
 
@@ -89,12 +95,10 @@ h3:hover {
 }
 
 .Project {
-    width: 20vw;
+    width: 10vw;
 }
 
-article {
-    margin-left: 2em;
-}
+
 
 .ContactTel::before {
     content: "\2706";
@@ -104,4 +108,9 @@ article {
 .ContactMail::before {
     content: "\0040";
     margin-right: 5px;
+}
+
+.projectSpan {
+    font-weight: normal;
+    font-size: large;
 }
