@@ -23,18 +23,6 @@ article {
     height: 50px;
 }
 
-a.Mylogo {
-    background: url(logo.png) no-repeat;
-    display: block;
-    width: 200px;
-    height: 200px;
-    transition: 0.5s;
-}
-
-a.Mylogo:hover {
-    background: url(logo2.png) no-repeat;
-}
-
 a {
     text-decoration: none;
     color: black;
@@ -146,6 +134,11 @@ summary {
     display: inline;
 }
 
+
+.Mylogo {
+    display: none;
+}
+
 #AdaptivMenu {
     display: none;
 }
@@ -208,7 +201,7 @@ summary {
     .MenuItem {
         display: block;
         color: black;
-        width: 300px;
+        width: 250px;
         height: 30px;
         background-color: whitesmoke;
         border: 3px solid black;
@@ -227,5 +220,21 @@ summary {
         background-color: black;
         border: 3px solid white;
         transition-duration: 1.5s;
+    }
+
+    .MyLogoIMG {
+        display: none;
+    }
+
+    a.Mylogo {
+        background: url(logo.png) no-repeat;
+        display: block;
+        width: 200px;
+        height: 200px;
+        transition: 0.5s;
+    }
+
+    a.Mylogo:hover {
+        background: url(logo2.png) no-repeat;
     }
 }
