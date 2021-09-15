@@ -33,7 +33,6 @@ a.Mylogo {
 
 a.Mylogo:hover {
     background: url(logo2.png) no-repeat;
-
 }
 
 a {
@@ -77,9 +76,7 @@ main {
     border: 2px solid black;
     flex-wrap: wrap;
     background-color: rgba(150, 150, 150, 0.3);
-
 }
-
 
 footer {
     display: flex;
@@ -87,8 +84,6 @@ footer {
     background: rgba(50, 50, 50, 0.5);
     flex-wrap: wrap;
 }
-
-
 
 .SocialFooter,
 .ContactFooter {
@@ -152,10 +147,6 @@ summary {
     display: inline;
 }
 
-
-
-
-
 #AdaptivMenu {
     display: none;
 }
@@ -170,7 +161,6 @@ summary {
         border-top: 5px solid black;
     }
 
-    
     .ButtonMenu {
         display: flex;
         align-items: center;
@@ -203,38 +193,30 @@ summary {
         top: 8px;
     }
 
-    .NavigationMenu {
+    .NavHeader {
         display: block;
         position: fixed;
         visibility: hidden;
         top: 0;
-        left: -100%;
-        width: 300px;
-        height: 100%;
         margin: 0;
-        padding: 80px 0;
+        padding: 0;
+        width: 300px;
+        height: 300px;
         list-style: none;
         text-align: center;
-        background-color: blue;
+
     }
 
     .MenuItem {
         display: block;
-        color: green;
+        color: black;
+        width: 300px;
+        height: 30px;
+        background-color: gray;
     }
 
-    .MenuItem:hover {
-        display: block;
-        color: purple;
-    }
-
-    #AdaptivMenu:checked~.NavigationMenu {
+    #AdaptivMenu:checked~.NavHeader {
         visibility: visible;
-        left: 0%;
-    }
-
-    .NavigationMenu,
-    .MenuItem {
-        transition-duration: 3s;
+        left: 0;
     }
 }
